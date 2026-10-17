@@ -1,0 +1,28 @@
+<<$clear>>
+[1;31m?[0m Command Error: Missing required arguments
+
+
+[1;32m? Basic Operations:
+[0m +- [1;33musers list[0m [search]       - List all users
+ +- [1;33musers whois[0m <user>      - Show user details
+ +- [1;33musers add[0m              - Create new user
+ +- [1;33musers prune[0m            - Clean inactive users
+
+[1;31m? Moderation Tools:
+[0m +- [1;33musers kick[0m <user>      - Disconnect user
+ +- [1;33musers ban[0m <user> [reason] - Ban with optional reason
+ +- [1;33musers remove[0m <user>    - Permanent deletion
+
+[1;35m? Advanced Controls:
+[0m +- [1;33musers update[0m <user> <column> <value>
+ �    (e.g.: users update admin timelimit 120)
+ +- [1;33musers bulk[0m             - Bulk user operations
+ +- [1;33musers bulkclear[0m        - Clear bulk operations
+ +- [1;33musers sessions[0m         - Active sessions
+ +- [1;33musers ongoing[0m [user]   - Current activities
+ +- [1;33musers history[0m <user>   - Command history
+
+[1;36mUsage Example:[0m
+  users update demo_user powerlevel 3
+  users ban attacker "DDoS attempt"
+[0m

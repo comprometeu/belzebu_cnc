@@ -1,0 +1,57 @@
+[
+    {
+        "name": "?",
+        "asset": "methods",
+        "description": "View all available methods"
+    },
+    {
+        "name": "help",
+        "asset": "helpp",
+        "description": "Shows the help page"
+    },
+    {
+        "name": "plan",
+        "asset": "accountinfo",
+        "description": "Shows your account information"
+    },
+    {
+        "name": "ongoing",
+        "asset": "ongoing",
+        "description": "Shows your active attacks"
+    },
+    {
+        "name": "users",
+        "asset": "user",
+        "description": "User management system"
+    },
+    {
+        "name": "methods",
+        "asset": "methods",
+        "description": "View all available methods"
+    },
+	{
+        "name": "devices",
+        "asset": "devices",
+        "description": "View all available devices "
+    },
+    {
+        "name": "tos",
+        "asset": "tos",
+        "description": "Terms of service"
+    },
+    {
+        "name": "credits",
+        "asset": "credits",
+        "description": "View the terms of service"
+    },
+    {
+        "name": "test",
+        "asset": "test",
+        "description": "View the terms of service"
+    },
+    {
+        "name": "top",
+        "asset": "top",
+        "description": "View top informations"
+    }
+]

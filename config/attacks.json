@@ -1,0 +1,23 @@
+{
+    "attack toggle": true,
+    "single instance": false,
+    "global concurrents": 25,
+    "attack spinner": false,
+    "json api": false,
+    "verify api certificate": false,
+    "allow attack by range": false,
+    "api debug": false,
+    "host limit": {
+        "enabled": true,
+        "attacks": 0,
+        "seconds": 0,
+        "timelimit": 300
+    },
+    "groups": [
+        {
+            "name": "belzebu",
+            "timelimit": 600,
+            "concurrents": 3
+        }
+    ]
+}

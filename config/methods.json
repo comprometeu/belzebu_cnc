@@ -1,0 +1,160 @@
+[
+    {
+        "name": "udpbypass",
+        "alias": ["!udpbypass"],
+        "group": "udp",
+        "description": "UDP flood with random hex-encoded payload.",
+        "api": ["http://localhost:3000/api/test?key=12345&host=<<$host>>&port=<<$port>>&method=udpbypass&time=<<$time>>"]
+    },
+    {
+        "name": "udpps",
+        "alias": ["!udpps"],
+        "group": "udp",
+        "description": "UDP socket flood optimized for PPS.",
+        "api": []
+    },
+    {
+        "name": "udp",
+        "alias": ["!udp"],
+        "group": "udp",
+        "description": "Mass randomized UDP data flood with whitelisted source IPs (small packets).",
+        "api": []
+    },
+    {
+        "name": "tcpbypass",
+        "alias": ["!tcpbypass"],
+        "group": "tcp",
+        "description": "High-hate, Tcp flood bypass.",
+        "api": []
+    },
+    {
+        "name": "handshake",
+        "alias": ["!handshake"],
+        "group": "tcp",
+        "description": "High-rate TCP handshake 3 ways.",
+        "api": []
+    },
+    {
+        "name": "tcpmix",
+        "alias": ["!tcpmix"],
+        "group": "tcp",
+        "description": "Tcp SYN/ACK flood, good for bypassing.",
+        "api": []
+    },
+    {
+        "name": "OVH",
+        "alias": ["!OVH"],
+        "group": "tcp",
+        "description": "PSH-ACK flood with specialized options, whitelisted VAC source IPs.",
+        "api": []
+    },
+    {
+        "name": "socket",
+        "alias": ["!socket"],
+        "group": "tcp",
+        "description": "Raw TCP socket. Protocol confusion, DPI evasion, multi-vector payloads.",
+        "api": []
+    },
+    {
+        "name": "httpbypass",
+        "alias": ["!httpbypass"],
+        "group": "http",
+        "description": "HTTP Flood: Universal Compatibility.",
+        "api": []
+    },
+    {
+        "name": "killer",
+        "alias": ["!killer"],
+        "group": "http",
+        "description": "XXE Exploit Flooder.",
+        "api": []
+    },
+    {
+        "name": "tls",
+        "alias": ["!tls"],
+        "group": "http",
+        "description": "TLSv1.3 optimized flood for high RQ/s.",
+        "api": []
+    },
+    {
+        "name": "browser",
+        "alias": ["!browser"],
+        "group": "http",
+        "description": "Powerful flood bypassing Captcha and UAM protection.",
+        "api": []
+    },
+    {
+        "name": "DISCORD",
+        "alias": ["!DISCORD"],
+        "group": "udp",
+        "description": "Bypass Discord Servers.",
+        "api": []
+    },
+    {
+        "name": "FIVEM",
+        "alias": ["!FIVEM"],
+        "group": "udp",
+        "description": "UDP Flood With real player request.",
+        "api": []
+    },
+    {
+        "name": "SAMP",
+        "alias": ["!SAMP"],
+        "group": "udp",
+        "description": "UDP profile targeting game and communication protocols with custom payloads.",
+        "api": []
+    },
+    {
+        "name": "GAME",
+        "alias": ["!GAME"],
+        "group": "udp",
+        "description": "Game Method Bypass, High MPPs.",
+        "api": []
+    },
+    {
+        "name": "GRE",
+        "alias": ["!GRE"],
+        "group": "udp",
+        "description": "Generic Routing Encapsulation Flood.",
+        "api": []
+    },
+    {
+        "name": "RAKNET",
+        "alias": ["!RAKNET"],
+        "group": "tcp",
+        "description": "RakNet protocol method.",
+        "api": []
+    },
+    {
+        "name": "MCJE",
+        "alias": ["!MCJE"],
+        "group": "tcp",
+        "vip": true,
+        "description": "Spoofed login/status handshakes drowning Mojang tick loops in orphaned states.",
+        "api": []
+    },
+    {
+        "name": "R6",
+        "alias": ["!R6"],
+        "group": "udp",
+        "vip": true,
+        "description": "R6 method crashing ranked, High MPPs.",
+        "api": []
+    },
+    {
+        "name": "DBD",
+        "alias": ["!DBD"],
+        "group": "udp",
+        "vip": true,
+        "description": "DBD method crashing matches, High MPPs.",
+        "api": []
+    },
+    {
+        "name": "tls-vip",
+        "alias": ["!tls-vip"],
+        "group": "http",
+        "vip": true,
+        "description": "NODE FOR BYPASS CACHED.",
+        "api": []
+    }
+]
