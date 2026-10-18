@@ -5,27 +5,24 @@
 
   \x1b[38;2;255;170;80mAttacks overview\x1b[0m
   \x1b[38;2;170;170;170m──────────────────────────────────────────────────────────────────\x1b[0m
-    \x1b[38;2;235;235;235mTotal Attacks (7d) :\x1b[0m  \x1b[38;2;222;3;244m[ <<$attacks_7days>> ]\x1b[0m
-    \x1b[38;2;235;235;235mTotal Attacks (30d):\x1b[0m  \x1b[38;2;222;3;244m[ <<$attacks_30days>> ]\x1b[0m
-    \x1b[38;2;235;235;235mAttacks Today      :\x1b[0m  \x1b[38;2;222;3;244m[ <<$attacks_today>> ]\x1b[0m
-    \x1b[38;2;235;235;235mAttacks Last Hour  :\x1b[0m  \x1b[38;2;222;3;244m[ <<$attacks_lasthour>> ]\x1b[0m
+    \x1b[38;2;235;235;235mTotal Attacks (7d) :\x1b[0m  \x1b[38;2;222;3;244m[ <<$global_attacks_7days>> ]\x1b[0m
+    \x1b[38;2;235;235;235mTotal Attacks (30d):\x1b[0m  \x1b[38;2;222;3;244m[ <<$global_attacks_30days>> ]\x1b[0m
+    \x1b[38;2;235;235;235mAttacks Today      :\x1b[0m  \x1b[38;2;222;3;244m[ <<$global_attacks_today>> ]\x1b[0m
+    \x1b[38;2;235;235;235mAttacks Last Hour  :\x1b[0m  \x1b[38;2;222;3;244m[ <<$global_attacks_lasthour>> ]\x1b[0m
 
   \x1b[38;2;255;170;80mTop Methods (7 Days)\x1b[0m
   \x1b[38;2;170;170;170m──────────────────────────────────────────────────────────────────\x1b[0m
-    \x1b[38;2;222;3;244m1.\x1b[0m \x1b[38;2;235;235;235m<<$top_method_7_1_name>>\x1b[0m   \x1b[38;2;170;170;170m[ <<$top_method_7_1_count>> attacks | <<$top_method_7_1_pct>> ]\x1b[0m
-    \x1b[38;2;222;3;244m2.\x1b[0m \x1b[38;2;235;235;235m<<$top_method_7_2_name>>\x1b[0m   \x1b[38;2;170;170;170m[ <<$top_method_7_2_count>> attacks | <<$top_method_7_2_pct>> ]\x1b[0m
-    \x1b[38;2;222;3;244m3.\x1b[0m \x1b[38;2;235;235;235m<<$top_method_7_3_name>>\x1b[0m   \x1b[38;2;170;170;170m[ <<$top_method_7_3_count>> attacks | <<$top_method_7_3_pct>> ]\x1b[0m
-    \x1b[38;2;222;3;244m4.\x1b[0m \x1b[38;2;235;235;235m<<$top_method_7_4_name>>\x1b[0m   \x1b[38;2;170;170;170m[ <<$top_method_7_4_count>> attacks | <<$top_method_7_4_pct>> ]\x1b[0m
-    \x1b[38;2;222;3;244m5.\x1b[0m \x1b[38;2;235;235;235m<<$top_method_7_5_name>>\x1b[0m   \x1b[38;2;170;170;170m[ <<$top_method_7_5_count>> attacks | <<$top_method_7_5_pct>> ]\x1b[0m
+    \x1b[38;2;222;3;244m1.\x1b[0m \x1b[38;2;235;235;235m<<$top_method_global_7_1_name>>\x1b[0m   \x1b[38;2;170;170;170m[ <<$top_method_global_7_1_count>> attacks | <<$top_method_global_7_1_pct>> ]\x1b[0m
+    \x1b[38;2;222;3;244m2.\x1b[0m \x1b[38;2;235;235;235m<<$top_method_global_7_2_name>>\x1b[0m   \x1b[38;2;170;170;170m[ <<$top_method_global_7_2_count>> attacks | <<$top_method_global_7_2_pct>> ]\x1b[0m
+    \x1b[38;2;222;3;244m3.\x1b[0m \x1b[38;2;235;235;235m<<$top_method_global_7_3_name>>\x1b[0m   \x1b[38;2;170;170;170m[ <<$top_method_global_7_3_count>> attacks | <<$top_method_global_7_3_pct>> ]\x1b[0m
+    \x1b[38;2;222;3;244m4.\x1b[0m \x1b[38;2;235;235;235m<<$top_method_global_7_4_name>>\x1b[0m   \x1b[38;2;170;170;170m[ <<$top_method_global_7_4_count>> attacks | <<$top_method_global_7_4_pct>> ]\x1b[0m
+    \x1b[38;2;222;3;244m5.\x1b[0m \x1b[38;2;235;235;235m<<$top_method_global_7_5_name>>\x1b[0m   \x1b[38;2;170;170;170m[ <<$top_method_global_7_5_count>> attacks | <<$top_method_global_7_5_pct>> ]\x1b[0m
 
   \x1b[38;2;255;170;80mTop Methods (30 Days)\x1b[0m
   \x1b[38;2;170;170;170m──────────────────────────────────────────────────────────────────\x1b[0m
-    \x1b[38;2;222;3;244m1.\x1b[0m \x1b[38;2;235;235;235m<<$top_method_30_1_name>>\x1b[0m   \x1b[38;2;170;170;170m[ <<$top_method_30_1_count>> attacks | <<$top_method_30_1_pct>> ]\x1b[0m
-    \x1b[38;2;222;3;244m2.\x1b[0m \x1b[38;2;235;235;235m<<$top_method_30_2_name>>\x1b[0m   \x1b[38;2;170;170;170m[ <<$top_method_30_2_count>> attacks | <<$top_method_30_2_pct>> ]\x1b[0m
-    \x1b[38;2;222;3;244m3.\x1b[0m \x1b[38;2;235;235;235m<<$top_method_30_3_name>>\x1b[0m   \x1b[38;2;170;170;170m[ <<$top_method_30_3_count>> attacks | <<$top_method_30_3_pct>> ]\x1b[0m
-    \x1b[38;2;222;3;244m4.\x1b[0m \x1b[38;2;235;235;235m<<$top_method_30_4_name>>\x1b[0m   \x1b[38;2;170;170;170m[ <<$top_method_30_4_count>> attacks | <<$top_method_30_4_pct>> ]\x1b[0m
-    \x1b[38;2;222;3;244m5.\x1b[0m \x1b[38;2;235;235;235m<<$top_method_30_5_name>>\x1b[0m   \x1b[38;2;170;170;170m[ <<$top_method_30_5_count>> attacks | <<$top_method_30_5_pct>> ]\x1b[0m
+    \x1b[38;2;222;3;244m1.\x1b[0m \x1b[38;2;235;235;235m<<$top_method_global_30_1_name>>\x1b[0m   \x1b[38;2;170;170;170m[ <<$top_method_global_30_1_count>> attacks | <<$top_method_global_30_1_pct>> ]\x1b[0m
+    \x1b[38;2;222;3;244m2.\x1b[0m \x1b[38;2;235;235;235m<<$top_method_global_30_2_name>>\x1b[0m   \x1b[38;2;170;170;170m[ <<$top_method_global_30_2_count>> attacks | <<$top_method_global_30_2_pct>> ]\x1b[0m
+    \x1b[38;2;222;3;244m3.\x1b[0m \x1b[38;2;235;235;235m<<$top_method_global_30_3_name>>\x1b[0m   \x1b[38;2;170;170;170m[ <<$top_method_global_30_3_count>> attacks | <<$top_method_global_30_3_pct>> ]\x1b[0m
+    \x1b[38;2;222;3;244m4.\x1b[0m \x1b[38;2;235;235;235m<<$top_method_global_30_4_name>>\x1b[0m   \x1b[38;2;170;170;170m[ <<$top_method_global_30_4_count>> attacks | <<$top_method_global_30_4_pct>> ]\x1b[0m
+    \x1b[38;2;222;3;244m5.\x1b[0m \x1b[38;2;235;235;235m<<$top_method_global_30_5_name>>\x1b[0m   \x1b[38;2;170;170;170m[ <<$top_method_global_30_5_count>> attacks | <<$top_method_global_30_5_pct>> ]\x1b[0m
 
-  \x1b[38;2;170;170;170m──────────────────────────────────────────────────────────────────\x1b[0m
-  \x1b[38;2;235;235;235mOnline:\x1b[0m \x1b[38;2;80;255;80m<<$onlineusers>>\x1b[0m   \x1b[38;2;170;170;170m│\x1b[0m   \x1b[38;2;235;235;235mActive now:\x1b[0m \x1b[38;2;222;3;244m<<$allgoing>>\x1b[0m   \x1b[38;2;170;170;170m│\x1b[0m   \x1b[38;2;235;235;235mRegistered:\x1b[0m \x1b[38;2;222;3;244m<<$totalusers>>\x1b[0m
-  \x1b[38;2;170;170;170m──────────────────────────────────────────────────────────────────\x1b[0m

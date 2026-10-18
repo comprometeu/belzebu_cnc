@@ -11,119 +11,119 @@
         "alias": ["!udpps"],
         "group": "udp",
         "description": "UDP socket flood optimized for PPS.",
-        "api": []
+        "api": ["http://localhost:3000/api/test?key=12345&host=<<$host>>&port=<<$port>>&method=udpps&time=<<$time>>"]
     },
     {
         "name": "udp",
         "alias": ["!udp"],
         "group": "udp",
         "description": "Mass randomized UDP data flood with whitelisted source IPs (small packets).",
-        "api": []
+        "api": ["http://localhost:3000/api/test?key=12345&host=<<$host>>&port=<<$port>>&method=udp&time=<<$time>>"]
     },
     {
         "name": "tcpbypass",
         "alias": ["!tcpbypass"],
         "group": "tcp",
         "description": "High-hate, Tcp flood bypass.",
-        "api": []
+        "api": ["http://localhost:3000/api/test?key=12345&host=<<$host>>&port=<<$port>>&method=tcpbypass&time=<<$time>>"]
     },
     {
         "name": "handshake",
         "alias": ["!handshake"],
         "group": "tcp",
         "description": "High-rate TCP handshake 3 ways.",
-        "api": []
+        "api": ["http://localhost:3000/api/test?key=12345&host=<<$host>>&port=<<$port>>&method=handshake&time=<<$time>>"]
     },
     {
         "name": "tcpmix",
         "alias": ["!tcpmix"],
         "group": "tcp",
         "description": "Tcp SYN/ACK flood, good for bypassing.",
-        "api": []
+        "api": ["http://localhost:3000/api/test?key=12345&host=<<$host>>&port=<<$port>>&method=tcpmix&time=<<$time>>"]
     },
     {
         "name": "OVH",
         "alias": ["!OVH"],
         "group": "tcp",
         "description": "PSH-ACK flood with specialized options, whitelisted VAC source IPs.",
-        "api": []
+        "api": ["http://localhost:3000/api/test?key=12345&host=<<$host>>&port=<<$port>>&method=OVH&time=<<$time>>"]
     },
     {
         "name": "socket",
         "alias": ["!socket"],
         "group": "tcp",
         "description": "Raw TCP socket. Protocol confusion, DPI evasion, multi-vector payloads.",
-        "api": []
+        "api": ["http://localhost:3000/api/test?key=12345&host=<<$host>>&port=<<$port>>&method=socket&time=<<$time>>"]
     },
     {
         "name": "httpbypass",
         "alias": ["!httpbypass"],
         "group": "http",
         "description": "HTTP Flood: Universal Compatibility.",
-        "api": []
+        "api": ["http://localhost:3000/api/test?key=12345&host=<<$host>>&port=<<$port>>&method=httpbypass&time=<<$time>>"]
     },
     {
         "name": "killer",
         "alias": ["!killer"],
         "group": "http",
         "description": "XXE Exploit Flooder.",
-        "api": []
+        "api": ["http://localhost:3000/api/test?key=12345&host=<<$host>>&port=<<$port>>&method=killer&time=<<$time>>"]
     },
     {
         "name": "tls",
         "alias": ["!tls"],
         "group": "http",
         "description": "TLSv1.3 optimized flood for high RQ/s.",
-        "api": []
+        "api": ["http://localhost:3000/api/test?key=12345&host=<<$host>>&port=<<$port>>&method=tls&time=<<$time>>"]
     },
     {
         "name": "browser",
         "alias": ["!browser"],
         "group": "http",
         "description": "Powerful flood bypassing Captcha and UAM protection.",
-        "api": []
+        "api": ["http://localhost:3000/api/test?key=12345&host=<<$host>>&port=<<$port>>&method=browser&time=<<$time>>"]
     },
     {
         "name": "DISCORD",
         "alias": ["!DISCORD"],
         "group": "udp",
         "description": "Bypass Discord Servers.",
-        "api": []
+        "api": ["http://localhost:3000/api/test?key=12345&host=<<$host>>&port=<<$port>>&method=DISCORD&time=<<$time>>"]
     },
     {
         "name": "FIVEM",
         "alias": ["!FIVEM"],
         "group": "udp",
         "description": "UDP Flood With real player request.",
-        "api": []
+        "api": ["http://localhost:3000/api/test?key=12345&host=<<$host>>&port=<<$port>>&method=FIVEM&time=<<$time>>"]
     },
     {
         "name": "SAMP",
         "alias": ["!SAMP"],
         "group": "udp",
         "description": "UDP profile targeting game and communication protocols with custom payloads.",
-        "api": []
+        "api": ["http://localhost:3000/api/test?key=12345&host=<<$host>>&port=<<$port>>&method=SAMP&time=<<$time>>"]
     },
     {
         "name": "GAME",
         "alias": ["!GAME"],
         "group": "udp",
         "description": "Game Method Bypass, High MPPs.",
-        "api": []
+        "api": ["http://localhost:3000/api/test?key=12345&host=<<$host>>&port=<<$port>>&method=GAME&time=<<$time>>"]
     },
     {
         "name": "GRE",
         "alias": ["!GRE"],
         "group": "udp",
         "description": "Generic Routing Encapsulation Flood.",
-        "api": []
+        "api": ["http://localhost:3000/api/test?key=12345&host=<<$host>>&port=<<$port>>&method=GRE&time=<<$time>>"]
     },
     {
         "name": "RAKNET",
         "alias": ["!RAKNET"],
         "group": "tcp",
         "description": "RakNet protocol method.",
-        "api": []
+        "api": ["http://localhost:3000/api/test?key=12345&host=<<$host>>&port=<<$port>>&method=RAKNET&time=<<$time>>"]
     },
     {
         "name": "MCJE",
@@ -131,7 +131,7 @@
         "group": "tcp",
         "vip": true,
         "description": "Spoofed login/status handshakes drowning Mojang tick loops in orphaned states.",
-        "api": []
+        "api": ["http://localhost:3000/api/test?key=12345&host=<<$host>>&port=<<$port>>&method=MCJE&time=<<$time>>"]
     },
     {
         "name": "R6",
@@ -139,7 +139,7 @@
         "group": "udp",
         "vip": true,
         "description": "R6 method crashing ranked, High MPPs.",
-        "api": []
+        "api": ["http://localhost:3000/api/test?key=12345&host=<<$host>>&port=<<$port>>&method=R6&time=<<$time>>"]
     },
     {
         "name": "DBD",
@@ -147,7 +147,7 @@
         "group": "udp",
         "vip": true,
         "description": "DBD method crashing matches, High MPPs.",
-        "api": []
+        "api": ["http://localhost:3000/api/test?key=12345&host=<<$host>>&port=<<$port>>&method=DBD&time=<<$time>>"]
     },
     {
         "name": "tls-vip",
@@ -155,6 +155,6 @@
         "group": "http",
         "vip": true,
         "description": "NODE FOR BYPASS CACHED.",
-        "api": []
+        "api": ["http://localhost:3000/api/test?key=12345&host=<<$host>>&port=<<$port>>&method=tls-vip&time=<<$time>>"]
     }
 ]

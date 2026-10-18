@@ -1,14 +1,15 @@
 {
-    "key": "YOUR-KEY",
-    "mysql": {
-        "address": "127.0.0.1:3306",
+    "key": "This Key no worky :(",
+    "database": {
+        "type": "mysql",
+        "address": "127.0.0.1:8847",
         "username": "belzebu",
         "password": "pass123",
         "table": "belzebu"
     },
     "connection": {
         "server version": "",
-        "port": 666
+        "port": 38472
     },
     "webhook": {
         "enabled": false,
@@ -16,7 +17,7 @@
     },
     "api": {
         "enabled": true,
-        "port": 999
+        "port": 38470
     },
     "fakecount": {
         "enabled": false,
@@ -29,7 +30,7 @@
     },
     "branding": {
         "title": "Belzebu C2 /  User: <<$username>> / My Ongoing: <<$ongoing>>/<<$concurrents>> / Global: <<$allgoing>>/<<$global_concurrents>> / Expiry: <<$expiry>> / Online: <<$onlineusers>>",
-        "prompt": "\u001b[7;38;2;189;18;203m<<$username>>\u001b[7;38;2;195;43;208m@\u001b[7;38;2;202;69;213mb\u001b[7;38;2;208;94;218me\u001b[7;38;2;215;120;223my\u001b[7;38;2;221;145;227mo\u001b[7;38;2;228;171;232mn\u001b[7;38;2;234;196;237md\u001b[0m \u001b[38;2;247;247;247m🎔 \u001b[0m",
+        "prompt": "\u001b[7;38;2;194;24;91m<<$username>>\u001b[7;38;2;200;43;105m@\u001b[7;38;2;206;62;119mb\u001b[7;38;2;212;81;133me\u001b[7;38;2;218;100;147my\u001b[7;38;2;224;119;161mo\u001b[7;38;2;230;138;175mn\u001b[7;38;2;236;157;189md\u001b[0m \u001b[1;38;2;247;247;247m⛤\u001b[0m ",
         "assets": {
             "welcome": "succ",
             "banner": "succ",
@@ -51,7 +52,7 @@
         },
         "otp": {
             "enabled": false,
-            "title": "[<<$spinner>>] Beyond C2 Otp [<<$spinner>>]",
+            "title": "[<<$spinner>>] Belzebu C2 Otp [<<$spinner>>]",
             "asset": "otp",
             "prompt": "codeplz> "
         },
@@ -73,7 +74,7 @@
         },
         "captcha": {
             "enabled": false,
-            "title": "[<<$spinner>>] Beyond C2 Captcha [<<$spinner>>]",
+            "title": "[<<$spinner>>] Belzebu C2 Captcha [<<$spinner>>]",
             "prompt": "captcha> ",
             "asset": "captcha"
         },

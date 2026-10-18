@@ -15,11 +15,6 @@
         "description": "Shows your account information"
     },
     {
-        "name": "ongoing",
-        "asset": "ongoing",
-        "description": "Shows your active attacks"
-    },
-    {
         "name": "users",
         "asset": "user",
         "description": "User management system"
@@ -52,6 +47,11 @@
     {
         "name": "top",
         "asset": "top",
+        "description": "View top informations"
+    },
+    {
+        "name": "stats",
+        "asset": "stats",
         "description": "View top informations"
     }
 ]

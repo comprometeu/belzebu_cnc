@@ -157,4 +157,4 @@ Usadas no prompt e title:
 
 Exemplo de `title`:
 ```json
-"title": "Beyond C2 / User: <<$username>> / Ongoing: <<$ongoing>>/<<$concurrents>> / Global: <<$allgoing>>/25 / Expiry: <<$expiry>> / Online: <<$onlineusers>>"
+"title": "Belzebu C2 / User: <<$username>> / Ongoing: <<$ongoing>>/<<$concurrents>> / Global: <<$allgoing>>/25 / Expiry: <<$expiry>> / Online: <<$onlineusers>>"
